@@ -26,8 +26,6 @@ function App() {
   const [open, setOpen] = React.useState(false);
   const [selected, setSelected] = React.useState(null);
 
-  console.log(searchValue, 'input changed');
-
   return (
     <body className="page">
       <PopupContext.Provider value={{ open, setOpen, selected, setSelected }}>
