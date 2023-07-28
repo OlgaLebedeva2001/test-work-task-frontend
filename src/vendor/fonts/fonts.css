@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'proximanova';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./proximanova_bold.woff2) format('woff2'), url(./proximanova_bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'proximanova';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./proximanova_regular.woff2) format('woff2'),
+    url(./proximanova_regular.woff) format('woff');
+}
